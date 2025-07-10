@@ -64,7 +64,7 @@ int main() {
     initialize();
     //Choose (A) to start and (J) to end
     deque<pair<char, pair<int, int>>> q;
-    //format of vector: ('A', ('A' - 'A', 0))
+    //format of deque: ('A', ('A' - 'A', 0))
     q.push_back(make_pair('A', make_pair(0, 0)));
     int ans;
     vector<bool> visited(10, 0);
